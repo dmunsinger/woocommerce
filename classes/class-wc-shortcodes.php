@@ -521,7 +521,7 @@ class WC_Shortcodes {
 
 	  	if ( empty( $atts ) ) return;
 
-	  	if ( ! isset( $atts['style'] ) ) $atts['style'] = 'border:4px solid #ccc; padding: 12px;';
+	  	if ( ! isset( $atts['style'] ) ) $atts['style'] = 'padding: 2px;';
 
 	  	if ( isset( $atts['id'] ) ) {
 	  		$product_data = get_post( $atts['id'] );
